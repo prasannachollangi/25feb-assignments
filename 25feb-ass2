@@ -1,0 +1,22 @@
+n=int(input('Enter number:'))
+l=[]
+t=[]
+c=0
+for i in range(n):
+    x=int(input())
+    l.append(x)
+for i in range(n):
+    if l[i]!=0:
+        t.append(l[i])
+        c=c+1
+print('count:',c)        
+print(t)
+OUTPUT:-
+Enter number:5
+2
+0
+4
+0
+7
+count: 3
+[2, 4, 7]
